@@ -558,11 +558,12 @@ form .btn:focus{
     }
     .form-container span{
         width: 100px;
-        position: relative;
     }
     .form-container input{
         width: 220px;
+        height: 30px;
         margin-right: 150px;
+        font-size: 10px;
     }
     .form-container .btn{
         width: 65%;
@@ -574,9 +575,6 @@ form .btn:focus{
     }
     #indicator{
     width: 80px;
-    position: absolute;
-    /* top: 50px; */
-    right: 215px;
 }
 }
 
@@ -588,7 +586,7 @@ form .btn:focus{
 /* -----------Media Query For Menu------------ */
 
 @media screen and (max-width : 780px){
-    
+
     nav ul{
         position: absolute;
         top: 70px;
@@ -605,6 +603,7 @@ form .btn:focus{
         margin-right: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
+        padding-left: 20px;
     }
     nav ul li a{
         color: white;
